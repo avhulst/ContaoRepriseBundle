@@ -1,0 +1,7 @@
+# .ddev/config.watcher.yaml — exposes the Vite dev server (port 8080) via HTTPS.
+# Run "ddev restart" after adding this file.
+web_extra_exposed_ports:
+  - name: vite
+    container_port: 8080
+    http_port: 8081
+    https_port: 8080

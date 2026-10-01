@@ -1,0 +1,30 @@
+# config/config.yaml
+reprise:
+  # Must match "outputPath" in vite.config.mjs. entrypoints.json is read from here.
+  output_path: "%kernel.project_dir%/public/layout"
+
+  # Additional builds with their own entrypoints.json (optional).
+  # Selected in the page layout as "<build>:<entry>", e.g. "landing:main".
+  # builds:
+  #   landing: "%kernel.project_dir%/public/landing"
+
+  # Throw when entrypoints.json or an entry is missing (default: true).
+  # With false, missing entries render nothing.
+  # strict_mode: true
+
+  # Cache the parsed entrypoints.json (recommended in production, requires symfony/cache).
+  # cache: true
+
+  # crossorigin attribute next to SRI integrity: false, "anonymous" or "use-credentials".
+  # crossorigin: anonymous
+
+  # Default attributes for every <script> / <link> tag.
+  # script_attributes:
+  #   data-turbo-track: reload
+  # link_attributes:
+  #   data-turbo-track: reload
+
+# Only needed for {{ asset('layout/…') }} in templates, e.g. files added with the "copy" option.
+framework:
+  assets:
+    json_manifest_path: "%kernel.project_dir%/public/layout/manifest.json"

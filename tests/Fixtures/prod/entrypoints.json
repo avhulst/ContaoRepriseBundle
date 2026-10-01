@@ -1,0 +1,26 @@
+{
+    "isProd": true,
+    "devServer": null,
+    "publicPath": "/layout/",
+    "entryPoints": {
+        "app": {
+            "js": ["/layout/app-abc123.js"],
+            "css": ["/layout/app-def456.css"],
+            "preload": [],
+            "dynamic": []
+        },
+        "landing": {
+            "js": ["/layout/landing-111.js"],
+            "css": [],
+            "preload": [],
+            "dynamic": []
+        },
+        "shared": {
+            "js": ["/layout/shared-222.js"],
+            "css": ["/layout/app-def456.css"],
+            "preload": [],
+            "dynamic": []
+        }
+    },
+    "integrity": {}
+}

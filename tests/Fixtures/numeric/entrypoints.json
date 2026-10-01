@@ -1,0 +1,14 @@
+{
+    "isProd": true,
+    "devServer": null,
+    "publicPath": "/layout/",
+    "entryPoints": {
+        "2024": {
+            "js": ["/layout/2024-333.js"],
+            "css": [],
+            "preload": [],
+            "dynamic": []
+        }
+    },
+    "integrity": {}
+}

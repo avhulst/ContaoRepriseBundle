@@ -1,0 +1,6 @@
+{
+    "isProd": true,
+    "devServer": null,
+    "publicPath": "/layout/",
+    "entryPoints": {}
+}

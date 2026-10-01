@@ -1,0 +1,23 @@
+{
+    "isProd": false,
+    "devServer": {
+        "origin": "https://example.ddev.site:8080",
+        "client": "https://example.ddev.site:8080/layout/@vite/client",
+        "reactRefresh": null
+    },
+    "publicPath": "/layout/",
+    "entryPoints": {
+        "app": {
+            "js": ["https://example.ddev.site:8080/layout/app.js"],
+            "css": [],
+            "preload": [],
+            "dynamic": []
+        },
+        "admin": {
+            "js": ["https://example.ddev.site:8080/layout/admin.js"],
+            "css": [],
+            "preload": [],
+            "dynamic": []
+        }
+    }
+}
